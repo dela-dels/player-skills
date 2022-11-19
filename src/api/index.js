@@ -12,7 +12,7 @@ app.disable("x-powered-by");
 const routes = express.Router();
 
 /**
- * The following two lines are needed to allow passing json objects as request body
+ * The following two lines are needed to allow converting request objects to JSON
  */
 app.use(express.urlencoded());
 app.use(express.json());
